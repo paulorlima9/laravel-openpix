@@ -3,9 +3,9 @@
 namespace PauloRLima9\LaravelOpenPix\Refunds\Services;
 
 use GuzzleHttp\Client;
+use PauloRLima9\LaravelOpenPix\Refunds\Refund;
 use PauloRLima9\LaravelOpenPix\Core\Services\BaseService;
 use PauloRLima9\LaravelOpenPix\Refunds\Contracts\RefundsContract;
-use PauloRLima9\LaravelOpenPix\Refunds\Refund;
 
 class RefundsService extends BaseService implements RefundsContract
 {

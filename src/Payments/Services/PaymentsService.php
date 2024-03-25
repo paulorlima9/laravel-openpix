@@ -3,10 +3,10 @@
 namespace PauloRLima9\LaravelOpenPix\Payments\Services;
 
 use GuzzleHttp\Client;
-use PauloRLima9\LaravelOpenPix\Core\Services\BaseService;
-use PauloRLima9\LaravelOpenPix\Payments\Contracts\PaymentsContract;
 use PauloRLima9\LaravelOpenPix\Payments\Pix;
 use PauloRLima9\LaravelOpenPix\Payments\QrCode;
+use PauloRLima9\LaravelOpenPix\Core\Services\BaseService;
+use PauloRLima9\LaravelOpenPix\Payments\Contracts\PaymentsContract;
 
 class PaymentsService extends BaseService implements PaymentsContract
 {

@@ -4,8 +4,6 @@ namespace PauloRLima9\LaravelOpenPix\Core;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider;
-use function PauloRLima9\LaravelOpenPix\config;
-use function PauloRLima9\LaravelOpenPix\config_path;
 
 class LaravelOpenPixServiceProvider extends ServiceProvider
 {

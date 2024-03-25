@@ -2,12 +2,12 @@
 
 namespace PauloRLima9\LaravelOpenPix\Refunds;
 
-class Refund implements \JsonSerializable
+use JsonSerializable;
+
+class Refund implements JsonSerializable
 {
     private $transactionEndToEndId;
-
     private $correlationId;
-
     private $value;
 
     public function __construct(
@@ -15,16 +15,15 @@ class Refund implements \JsonSerializable
         string $transactionEndToEndId,
         int $value
     ) {
-        $this->corretionId = $correlationId;
+        $this->correlationId = $correlationId;
         $this->transactionEndToEndId = $transactionEndToEndId;
         $this->value = $value;
     }
 
-
     public function jsonSerialize(): array
     {
         return [
-            'correlationID' => $this->corretionId,
+            'correlationID' => $this->correlationId,
             'transactionEndToEndId' => $this->transactionEndToEndId,
             'value' => $this->value,
         ];

@@ -5,10 +5,10 @@ namespace PauloRLima9\LaravelOpenPix\Charges\Services;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use PauloRLima9\LaravelOpenPix\Charges\Charge;
-use PauloRLima9\LaravelOpenPix\Charges\Contracts\ChargeContract;
-use PauloRLima9\LaravelOpenPix\Charges\Exceptions\ChargeAlreadyCreatedException;
-use PauloRLima9\LaravelOpenPix\Charges\Exceptions\ChargeNotFoundException;
 use PauloRLima9\LaravelOpenPix\Core\Services\BaseService;
+use PauloRLima9\LaravelOpenPix\Charges\Contracts\ChargeContract;
+use PauloRLima9\LaravelOpenPix\Charges\Exceptions\ChargeNotFoundException;
+use PauloRLima9\LaravelOpenPix\Charges\Exceptions\ChargeAlreadyCreatedException;
 
 class ChargeService extends BaseService implements ChargeContract
 {

@@ -2,9 +2,10 @@
 
 namespace PauloRLima9\LaravelOpenPix\Charges;
 
+use JsonSerializable;
 use PauloRLima9\LaravelOpenPix\Customers\Customer;
 
-class Charge implements \JsonSerializable
+class Charge implements JsonSerializable
 {
     /**
      * @var array

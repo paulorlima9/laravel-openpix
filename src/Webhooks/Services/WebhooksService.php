@@ -3,9 +3,9 @@
 namespace PauloRLima9\LaravelOpenPix\Webhooks\Services;
 
 use GuzzleHttp\Client;
+use PauloRLima9\LaravelOpenPix\Webhooks\Webhook;
 use PauloRLima9\LaravelOpenPix\Core\Services\BaseService;
 use PauloRLima9\LaravelOpenPix\Webhooks\Contracts\WebhooksContract;
-use PauloRLima9\LaravelOpenPix\Webhooks\Webhook;
 
 class WebhooksService extends BaseService implements WebhooksContract
 {

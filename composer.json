@@ -13,14 +13,15 @@
     "php": ">=8.0",
     "ext-json": "*",
     "guzzlehttp/guzzle": "^7.8",
-    "illuminate/support": "^11.0"
+    "illuminate/support": "^11.0",
+    "laravel/framework": "^11.0"
   },
   "config": {
     "sort-packages": true
   },
   "require-dev": {
     "ext-curl": "*",
-    "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0 || ^10.0"
+    "phpunit/phpunit": "^8.0 || ^9.0 || ^10.0"
   },
   "autoload": {
     "psr-4": {

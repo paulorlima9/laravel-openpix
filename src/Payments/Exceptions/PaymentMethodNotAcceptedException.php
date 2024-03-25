@@ -2,6 +2,8 @@
 
 namespace PauloRLima9\LaravelOpenPix\Payments\Exceptions;
 
-class PaymentMethodNotAcceptedException extends \Exception
+use Exception;
+
+class PaymentMethodNotAcceptedException extends Exception
 {
 }
