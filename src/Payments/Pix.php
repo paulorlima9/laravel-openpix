@@ -1,9 +1,9 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Payments;
+namespace PauloRLima\LaravelOpenPix\Payments;
 
 use JsonSerializable;
-use PauloRLima9\LaravelOpenPix\Payments\Exceptions\PaymentMethodNotAcceptedException;
+use PauloRLima\LaravelOpenPix\Payments\Exceptions\PaymentMethodNotAcceptedException;
 
 class Pix implements JsonSerializable
 {

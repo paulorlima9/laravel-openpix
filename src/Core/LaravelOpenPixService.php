@@ -1,20 +1,20 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Core;
+namespace PauloRLima\LaravelOpenPix\Core;
 
 use GuzzleHttp\Client;
-use PauloRLima9\LaravelOpenPix\Charges\Services\ChargeService;
-use PauloRLima9\LaravelOpenPix\Refunds\Services\RefundsService;
-use PauloRLima9\LaravelOpenPix\Charges\Contracts\ChargeContract;
-use PauloRLima9\LaravelOpenPix\Payments\Services\PaymentsService;
-use PauloRLima9\LaravelOpenPix\Refunds\Contracts\RefundsContract;
-use PauloRLima9\LaravelOpenPix\Webhooks\Services\WebhooksService;
-use PauloRLima9\LaravelOpenPix\Customers\Services\CustomerService;
-use PauloRLima9\LaravelOpenPix\Payments\Contracts\PaymentsContract;
-use PauloRLima9\LaravelOpenPix\Webhooks\Contracts\WebhooksContract;
-use PauloRLima9\LaravelOpenPix\Customers\Contracts\CustomerContract;
-use PauloRLima9\LaravelOpenPix\Transaction\Services\TransactionsService;
-use PauloRLima9\LaravelOpenPix\Transactions\Contracts\TransactionContract;
+use PauloRLima\LaravelOpenPix\Charges\Services\ChargeService;
+use PauloRLima\LaravelOpenPix\Refunds\Services\RefundsService;
+use PauloRLima\LaravelOpenPix\Charges\Contracts\ChargeContract;
+use PauloRLima\LaravelOpenPix\Payments\Services\PaymentsService;
+use PauloRLima\LaravelOpenPix\Refunds\Contracts\RefundsContract;
+use PauloRLima\LaravelOpenPix\Webhooks\Services\WebhooksService;
+use PauloRLima\LaravelOpenPix\Customers\Services\CustomerService;
+use PauloRLima\LaravelOpenPix\Payments\Contracts\PaymentsContract;
+use PauloRLima\LaravelOpenPix\Webhooks\Contracts\WebhooksContract;
+use PauloRLima\LaravelOpenPix\Customers\Contracts\CustomerContract;
+use PauloRLima\LaravelOpenPix\Transaction\Services\TransactionsService;
+use PauloRLima\LaravelOpenPix\Transactions\Contracts\TransactionContract;
 
 class LaravelOpenPixService implements LaravelOpenPixContract
 {

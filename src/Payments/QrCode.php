@@ -1,6 +1,6 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Payments;
+namespace PauloRLima\LaravelOpenPix\Payments;
 
 use JsonSerializable;
 

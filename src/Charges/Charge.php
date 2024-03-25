@@ -1,9 +1,9 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Charges;
+namespace PauloRLima\LaravelOpenPix\Charges;
 
 use JsonSerializable;
-use PauloRLima9\LaravelOpenPix\Customers\Customer;
+use PauloRLima\LaravelOpenPix\Customers\Customer;
 
 class Charge implements JsonSerializable
 {

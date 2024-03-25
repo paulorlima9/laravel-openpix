@@ -1,8 +1,8 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Charges\Contracts;
+namespace PauloRLima\LaravelOpenPix\Charges\Contracts;
 
-use PauloRLima9\LaravelOpenPix\Charges\Charge;
+use PauloRLima\LaravelOpenPix\Charges\Charge;
 
 interface ChargeContract
 {

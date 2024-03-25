@@ -1,14 +1,14 @@
 <?php
 
-namespace PauloRLima9\Tests\Services;
+namespace PauloRLima\Tests\Services;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 use GuzzleHttp\Handler\MockHandler;
-use PauloRLima9\LaravelOpenPix\Customers\Customer;
-use PauloRLima9\LaravelOpenPix\Customers\Services\CustomerService;
+use PauloRLima\LaravelOpenPix\Customers\Customer;
+use PauloRLima\LaravelOpenPix\Customers\Services\CustomerService;
 
 class CustomersServiceTest extends TestCase
 {

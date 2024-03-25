@@ -25,12 +25,12 @@
   },
   "autoload": {
     "psr-4": {
-      "PauloRLima9\\LaravelOpenPix\\": "src/"
+      "PauloRLima\\LaravelOpenPix\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "PauloRLima9\\Tests\\": "tests/"
+      "PauloRLima\\Tests\\": "tests/"
     }
   }
 }

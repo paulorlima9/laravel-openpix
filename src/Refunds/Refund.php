@@ -1,6 +1,6 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Refunds;
+namespace PauloRLima\LaravelOpenPix\Refunds;
 
 use JsonSerializable;
 

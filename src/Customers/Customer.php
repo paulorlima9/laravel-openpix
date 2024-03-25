@@ -1,6 +1,6 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Customers;
+namespace PauloRLima\LaravelOpenPix\Customers;
 
 class Customer implements \JsonSerializable
 {

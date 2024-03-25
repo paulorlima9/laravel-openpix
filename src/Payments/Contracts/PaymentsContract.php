@@ -1,9 +1,9 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Payments\Contracts;
+namespace PauloRLima\LaravelOpenPix\Payments\Contracts;
 
-use PauloRLima9\LaravelOpenPix\Payments\Pix;
-use PauloRLima9\LaravelOpenPix\Payments\QrCode;
+use PauloRLima\LaravelOpenPix\Payments\Pix;
+use PauloRLima\LaravelOpenPix\Payments\QrCode;
 
 interface PaymentsContract
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Core\Facades;
+namespace PauloRLima\LaravelOpenPix\Core\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

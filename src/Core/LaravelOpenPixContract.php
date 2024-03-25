@@ -1,10 +1,10 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Core;
+namespace PauloRLima\LaravelOpenPix\Core;
 
-use PauloRLima9\LaravelOpenPix\Charges\Contracts\ChargeContract;
-use PauloRLima9\LaravelOpenPix\Refunds\Contracts\RefundsContract;
-use PauloRLima9\LaravelOpenPix\Payments\Contracts\PaymentsContract;
+use PauloRLima\LaravelOpenPix\Charges\Contracts\ChargeContract;
+use PauloRLima\LaravelOpenPix\Refunds\Contracts\RefundsContract;
+use PauloRLima\LaravelOpenPix\Payments\Contracts\PaymentsContract;
 
 interface LaravelOpenPixContract
 {

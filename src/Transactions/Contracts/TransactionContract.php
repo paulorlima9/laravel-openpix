@@ -1,6 +1,6 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Transactions\Contracts;
+namespace PauloRLima\LaravelOpenPix\Transactions\Contracts;
 
 interface TransactionContract
 {

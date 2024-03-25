@@ -1,13 +1,13 @@
 <?php
 
-namespace PauloRLima9\Tests\Services;
+namespace PauloRLima\Tests\Services;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 use GuzzleHttp\Handler\MockHandler;
-use PauloRLima9\LaravelOpenPix\Transaction\Services\TransactionsService;
+use PauloRLima\LaravelOpenPix\Transaction\Services\TransactionsService;
 
 class TransactionsServiceTest extends TestCase
 {

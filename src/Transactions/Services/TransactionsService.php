@@ -1,10 +1,10 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Transaction\Services;
+namespace PauloRLima\LaravelOpenPix\Transaction\Services;
 
 use GuzzleHttp\Client;
-use PauloRLima9\LaravelOpenPix\Core\Services\BaseService;
-use PauloRLima9\LaravelOpenPix\Transactions\Contracts\TransactionContract;
+use PauloRLima\LaravelOpenPix\Core\Services\BaseService;
+use PauloRLima\LaravelOpenPix\Transactions\Contracts\TransactionContract;
 
 class TransactionsService extends BaseService implements TransactionContract
 {

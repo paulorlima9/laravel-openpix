@@ -1,8 +1,8 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Webhooks\Contracts;
+namespace PauloRLima\LaravelOpenPix\Webhooks\Contracts;
 
-use PauloRLima9\LaravelOpenPix\Webhooks\Webhook;
+use PauloRLima\LaravelOpenPix\Webhooks\Webhook;
 
 interface WebhooksContract
 {

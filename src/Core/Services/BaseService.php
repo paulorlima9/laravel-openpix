@@ -1,6 +1,6 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Core\Services;
+namespace PauloRLima\LaravelOpenPix\Core\Services;
 
 abstract class BaseService
 {

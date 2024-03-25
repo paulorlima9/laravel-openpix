@@ -1,6 +1,6 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Webhooks;
+namespace PauloRLima\LaravelOpenPix\Webhooks;
 
 use JsonSerializable;
 use PharIo\Manifest\InvalidUrlException;

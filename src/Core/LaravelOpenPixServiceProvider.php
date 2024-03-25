@@ -1,6 +1,6 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Core;
+namespace PauloRLima\LaravelOpenPix\Core;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider;

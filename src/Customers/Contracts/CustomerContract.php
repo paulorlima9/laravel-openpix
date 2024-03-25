@@ -1,8 +1,8 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Customers\Contracts;
+namespace PauloRLima\LaravelOpenPix\Customers\Contracts;
 
-use PauloRLima9\LaravelOpenPix\Customers\Customer;
+use PauloRLima\LaravelOpenPix\Customers\Customer;
 
 interface CustomerContract
 {

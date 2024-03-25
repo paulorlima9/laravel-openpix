@@ -1,13 +1,13 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Customers\Services;
+namespace PauloRLima\LaravelOpenPix\Customers\Services;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
-use PauloRLima9\LaravelOpenPix\Customers\Customer;
-use PauloRLima9\LaravelOpenPix\Core\Services\BaseService;
-use PauloRLima9\LaravelOpenPix\Customers\Contracts\CustomerContract;
-use PauloRLima9\LaravelOpenPix\Customers\Exceptions\CustomerNotFoundException;
+use PauloRLima\LaravelOpenPix\Customers\Customer;
+use PauloRLima\LaravelOpenPix\Core\Services\BaseService;
+use PauloRLima\LaravelOpenPix\Customers\Contracts\CustomerContract;
+use PauloRLima\LaravelOpenPix\Customers\Exceptions\CustomerNotFoundException;
 
 class CustomerService extends BaseService implements CustomerContract
 {

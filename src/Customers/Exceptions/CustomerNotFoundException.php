@@ -1,6 +1,6 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Customers\Exceptions;
+namespace PauloRLima\LaravelOpenPix\Customers\Exceptions;
 
 use Exception;
 

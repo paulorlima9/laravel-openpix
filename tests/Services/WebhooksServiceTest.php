@@ -1,14 +1,14 @@
 <?php
 
-namespace PauloRLima9\Tests\Services;
+namespace PauloRLima\Tests\Services;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 use GuzzleHttp\Handler\MockHandler;
-use PauloRLima9\LaravelOpenPix\Webhooks\Webhook;
-use PauloRLima9\LaravelOpenPix\Webhooks\Services\WebhooksService;
+use PauloRLima\LaravelOpenPix\Webhooks\Webhook;
+use PauloRLima\LaravelOpenPix\Webhooks\Services\WebhooksService;
 
 class WebhooksServiceTest extends TestCase
 {

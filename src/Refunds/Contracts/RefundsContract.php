@@ -1,8 +1,8 @@
 <?php
 
-namespace PauloRLima9\LaravelOpenPix\Refunds\Contracts;
+namespace PauloRLima\LaravelOpenPix\Refunds\Contracts;
 
-use PauloRLima9\LaravelOpenPix\Refunds\Refund;
+use PauloRLima\LaravelOpenPix\Refunds\Refund;
 
 interface RefundsContract
 {
