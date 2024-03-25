@@ -3,16 +3,15 @@
 namespace PauloRLima9\Tests;
 
 use GuzzleHttp\Client;
-use GuzzleHttp\ClientInterface;
-use PauloRLima9\LaravelOpenPix\Charges\Contracts\ChargeContract;
-use PauloRLima9\LaravelOpenPix\Core\LaravelOpenPixContract;
-use PauloRLima9\LaravelOpenPix\Core\LaravelOpenPixService;
-use PauloRLima9\LaravelOpenPix\Customers\Contracts\CustomerContract;
-use PauloRLima9\LaravelOpenPix\Payments\Contracts\PaymentsContract;
-use PauloRLima9\LaravelOpenPix\Refunds\Contracts\RefundsContract;
-use PauloRLima9\LaravelOpenPix\Transaction\Contracts\TransactionContract;
-use PauloRLima9\LaravelOpenPix\Webhooks\Contracts\WebhooksContract;
 use PHPUnit\Framework\TestCase;
+use PauloRLima9\LaravelOpenPix\Core\LaravelOpenPixService;
+use PauloRLima9\LaravelOpenPix\Core\LaravelOpenPixContract;
+use PauloRLima9\LaravelOpenPix\Charges\Contracts\ChargeContract;
+use PauloRLima9\LaravelOpenPix\Refunds\Contracts\RefundsContract;
+use PauloRLima9\LaravelOpenPix\Payments\Contracts\PaymentsContract;
+use PauloRLima9\LaravelOpenPix\Webhooks\Contracts\WebhooksContract;
+use PauloRLima9\LaravelOpenPix\Customers\Contracts\CustomerContract;
+use PauloRLima9\LaravelOpenPix\Transactions\Contracts\TransactionContract;
 
 class LaravelOpenPixServiceTest extends TestCase
 {

@@ -3,13 +3,13 @@
 namespace PauloRLima9\Tests\Services;
 
 use GuzzleHttp\Client;
-use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
-use PauloRLima9\LaravelOpenPix\Charges\Charge;
-use PauloRLima9\LaravelOpenPix\Charges\Contracts\ChargeContract;
-use PauloRLima9\LaravelOpenPix\Charges\Services\ChargeService;
 use PHPUnit\Framework\TestCase;
+use GuzzleHttp\Handler\MockHandler;
+use PauloRLima9\LaravelOpenPix\Charges\Charge;
+use PauloRLima9\LaravelOpenPix\Charges\Services\ChargeService;
+use PauloRLima9\LaravelOpenPix\Charges\Contracts\ChargeContract;
 
 class ChargesServiceTest extends TestCase
 {

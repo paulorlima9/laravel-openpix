@@ -3,14 +3,14 @@
 namespace PauloRLima9\Tests\Services;
 
 use GuzzleHttp\Client;
-use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
-use PauloRLima9\LaravelOpenPix\Payments\Contracts\PaymentsContract;
+use GuzzleHttp\Handler\MockHandler;
+use Illuminate\Foundation\Testing\TestCase;
 use PauloRLima9\LaravelOpenPix\Payments\Pix;
 use PauloRLima9\LaravelOpenPix\Payments\QrCode;
 use PauloRLima9\LaravelOpenPix\Payments\Services\PaymentsService;
-use PHPUnit\Framework\TestCase;
+use PauloRLima9\LaravelOpenPix\Payments\Contracts\PaymentsContract;
 
 class PaymentsServiceTest extends TestCase
 {

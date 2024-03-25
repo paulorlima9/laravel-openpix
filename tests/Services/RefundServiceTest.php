@@ -3,12 +3,12 @@
 namespace PauloRLima9\Tests\Services;
 
 use GuzzleHttp\Client;
-use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
-use PauloRLima9\LaravelOpenPix\Refunds\Contracts\RefundsContract;
-use PauloRLima9\LaravelOpenPix\Refunds\Services\RefundsService;
 use PHPUnit\Framework\TestCase;
+use GuzzleHttp\Handler\MockHandler;
+use PauloRLima9\LaravelOpenPix\Refunds\Services\RefundsService;
+use PauloRLima9\LaravelOpenPix\Refunds\Contracts\RefundsContract;
 
 class RefundServiceTest extends TestCase
 {

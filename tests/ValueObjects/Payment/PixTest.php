@@ -2,9 +2,9 @@
 
 namespace PauloRLima9\Tests\ValueObjects\Payment;
 
-use PauloRLima9\LaravelOpenPix\Payments\Exceptions\PaymentMethodNotAcceptedException;
-use PauloRLima9\LaravelOpenPix\Payments\Pix;
 use PHPUnit\Framework\TestCase;
+use PauloRLima9\LaravelOpenPix\Payments\Pix;
+use PauloRLima9\LaravelOpenPix\Payments\Exceptions\PaymentMethodNotAcceptedException;
 
 class PixTest extends TestCase
 {
